@@ -57,9 +57,9 @@ insert into calldetails (id,called_by,called_to,called_on,duration)  values(7,90
 insert into calldetails (id,called_by,called_to,called_on,duration)  values(8,9009009002,9009009003,'2017-08-17',3);
 
 insert into friendfamily (id,phone_no,friend_and_family) values(1,9009009001,9009009002);
-insert into friendfamily (id,phone_no,freind_and_family) values(2,9009009001,9009009003);
-insert into friendfamily (id,phone_no,freind_and_family) values(3,9009009002,9009009005);
-insert into friendfamily (id,phone_no,freind_and_family) values(4,9009009003,9009009001);
+insert into friendfamily (id,phone_no,friend_and_family) values(2,9009009001,9009009003);
+insert into friendfamily (id,phone_no,friend_and_family) values(3,9009009002,9009009005);
+insert into friendfamily (id,phone_no,friend_and_family) values(4,9009009003,9009009001);
 
 
 
@@ -76,3 +76,4 @@ select * from plan;
 
 --CAN ADD SPRING SECRITY ,SO ONLY LOGIN CUSTOMERS AND CAN VIEW THEIR ONLY PROFILE,CONTACT,CALL DETAILS
 --CAN ADD A DASHBOARD PAGE WHERE ALL CUSTOMERS LIST CAN SHOW TO THE ONLY ADMIN USER
+--ADD PLAN POST API ,MAPPING IN CUSTOMER TO PLAN CHANGE TO MANY-TO-ONE
